@@ -1,0 +1,2163 @@
+{
+  "version": 2,
+  "name": "StarBox TV Sources",
+  "updatedAt": "2026-10-22",
+  "source": "starboxtvs.json + sites_config.json",
+  "sites": [
+    {
+      "id": "maoyan",
+      "name": "猫眼影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "mirrors": [
+        "https://maoyanzy.com/api.php/provide/vod"
+      ],
+      "parse": "https://jx.maoyanjx.top/player/?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_猫眼"
+      ]
+    },
+    {
+      "id": "zuid",
+      "name": "最大影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.zuidapi.com/api.php/provide/vod",
+      "mirrors": [
+        "https://zuidazy.me/api.php/provide/vod",
+        "https://zuidazy.co/api.php/provide/vod"
+      ],
+      "parse": "https://jx.zdplay.cc/m3u8Player/?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_最大"
+      ]
+    },
+    {
+      "id": "haohua",
+      "name": "豪华影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://hhzyapi.com/api.php/provide/vod",
+      "mirrors": [
+        "https://www.haohuazy.com/api.php/provide/vod"
+      ],
+      "parse": "https://hhzyjiexi.com/play/?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_豪华"
+      ]
+    },
+    {
+      "id": "subo",
+      "name": "速播影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "mirrors": [
+        "https://subocj.com/api.php/provide/vod"
+      ],
+      "parse": "https://subojiexi.com/play/?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_速播"
+      ]
+    },
+    {
+      "id": "dzzy",
+      "name": "大众资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://cdn.dzzyapi.com/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "ikun",
+      "name": "ikun影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "mirrors": [
+        "https://www.ikunzy.com/api.php/provide/vod"
+      ],
+      "parse": "https://www.ikundmjx.com/?url=",
+      "categories": [
+        "电影",
+        "连续剧",
+        "综艺",
+        "动漫",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "惊悚片",
+        "历史片",
+        "犯罪片",
+        "国产剧",
+        "韩国剧",
+        "欧美剧",
+        "泰国剧",
+        "大陆综艺",
+        "爽文短剧"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_ikun"
+      ]
+    },
+    {
+      "id": "jisu",
+      "name": "极速影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "parse": "https://jisuzyjx.com/play/?url=",
+      "categories": [
+        "日剧",
+        "马泰剧",
+        "内地剧",
+        "欧美剧",
+        "香港剧",
+        "韩剧",
+        "台湾剧",
+        "恐怖片",
+        "动画片",
+        "剧情片",
+        "战争片",
+        "动作片",
+        "记录片",
+        "爱情片",
+        "喜剧片",
+        "科幻片",
+        "灾难片",
+        "悬疑片",
+        "犯罪片",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_极速"
+      ]
+    },
+    {
+      "id": "ruyi",
+      "name": "如意影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "mirrors": [
+        "https://bycj.rytvapi.com/api.php/provide/vod",
+        "https://cj.rytvapi.com/api.php/provide/vod"
+      ],
+      "parse": "https://ruyiplayer.com?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_如意"
+      ]
+    },
+    {
+      "id": "mdzy",
+      "name": "魔都影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "mirrors": [
+        "https://www.moduzy.com/api.php/provide/vod",
+        "https://caiji.moduapi.cc/api.php/provide/vod"
+      ],
+      "parse": "https://www.modujiexi66.com/?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_魔都"
+      ]
+    },
+    {
+      "id": "bfzy",
+      "name": "暴风影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "mirrors": [
+        "http://bf.xoxowin86cisyap.com/api.php/provide/vod"
+      ],
+      "parse": "https://vip.vipuuvip.com/?url=",
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "大陆综艺",
+        "港台综艺",
+        "香港剧",
+        "台湾剧",
+        "日本剧",
+        "欧美剧",
+        "泰国剧",
+        "日本动漫",
+        "日本综艺",
+        "综艺频道",
+        "新马泰综艺",
+        "科幻片",
+        "喜剧片",
+        "战争片"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_暴風"
+      ]
+    },
+    {
+      "id": "wujin",
+      "name": "无尽影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.wujinapi.me/api.php/provide/vod",
+      "mirrors": [
+        "https://api.wujinapi.com/api.php/provide/vod",
+        "https://api.wujinapi.net/api.php/provide/vod",
+        "https://api.wujinapi.cc/api.php/provide/vod"
+      ],
+      "parse": "https://jx.xllmcms.com/dplayer/?url=",
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "邵氏电影",
+        "国产剧",
+        "欧美剧",
+        "犯罪片",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "其他片",
+        "悬疑片",
+        "奇幻片",
+        "动画片",
+        "国产动漫",
+        "日本动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_无尽"
+      ]
+    },
+    {
+      "id": "yinghua",
+      "name": "樱花影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://yhzy.cc/api.php/provide/vod",
+      "mirrors": [
+        "https://m3u8.apiyhzy.com/api.php/provide/vod/"
+      ],
+      "parse": "https://jx.yhzybf.com/player/jx.php?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_樱花"
+      ]
+    },
+    {
+      "id": "p2100",
+      "name": "飘零资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://p2100.net/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "xinlang",
+      "name": "新浪影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+      "parse": "https://xljiexi.com/m3u8/?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_新浪"
+      ]
+    },
+    {
+      "id": "hgyx",
+      "name": "HG资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://hong.hgyx.vip/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "juliang",
+      "name": "巨量资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.juliang.live/api/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "zy360",
+      "name": "360影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://360zyzz.com/api.php/provide/vod",
+      "mirrors": [
+        "https://360zy.com/api.php/provide/vod",
+        "https://360zy.tv/api.php/provide/vod"
+      ],
+      "parse": "https://www.360bffxz.com/player/?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_360"
+      ]
+    },
+    {
+      "id": "guangsu",
+      "name": "光速影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "parse": "https://www.gszyv.com/m3u8/?url=",
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "动漫电影",
+        "大陆剧",
+        "欧美剧",
+        "港澳剧",
+        "韩剧",
+        "台湾剧",
+        "日剧",
+        "海外剧",
+        "泰剧",
+        "体育赛事",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_光速"
+      ]
+    },
+    {
+      "id": "bdzy",
+      "name": "百度影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "parse": "https://jx.jxbdzyw.com/m3u8/?url=",
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "大陆剧",
+        "战争片",
+        "动作片",
+        "喜剧片",
+        "韩剧",
+        "日剧",
+        "港澳剧",
+        "台湾剧",
+        "泰剧",
+        "欧美剧",
+        "纪录片"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_百度"
+      ]
+    },
+    {
+      "id": "jinying",
+      "name": "金鹰资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://jinyingzy.com/api.php/provide/vod",
+      "mirrors": [
+        "https://jyzyapi.com/api.php/provide/vod"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "hongniu",
+      "name": "红牛影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "mirrors": [
+        "https://www.hongniuzy3.com/api.php/provide/vod"
+      ],
+      "parse": "https://www.hnjiexi.com/m3u8/?url=",
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港澳剧",
+        "日剧",
+        "欧美剧",
+        "台湾剧",
+        "泰剧",
+        "韩剧",
+        "纪录片",
+        "动漫电影"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_红牛"
+      ]
+    },
+    {
+      "id": "wyvod",
+      "name": "无忧影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://www.wyvod.com/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "huya",
+      "name": "虎牙影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://www.huyaapi.com/api.php/provide/vod",
+      "parse": "https://huyajx.com/play/?url=",
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "纪录片",
+        "体育赛事",
+        "国产剧",
+        "香港剧",
+        "韩剧",
+        "欧美剧",
+        "科幻片",
+        "短剧"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_虎牙"
+      ]
+    },
+    {
+      "id": "yxxq",
+      "name": "映像星球",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://www.yxxq41.cc/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "iqiyizy",
+      "name": "爱奇艺",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "parse": "https://www.iqiyizyjx.com/?url=",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_iqy"
+      ]
+    },
+    {
+      "id": "girigiri",
+      "name": "girigiri爱动漫",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://m3u8.girigirilove.com/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "ysxq",
+      "name": "星球资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://www.ysxq.cc/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "uku",
+      "name": "U酷影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.ukuapi88.com/api.php/provide/vod",
+      "mirrors": [
+        "https://api.ukuapi.com/api.php/provide/vod"
+      ],
+      "parse": "https://api.ukubf.com/m3u8/?url=",
+      "categories": [
+        "动漫",
+        "综艺",
+        "纪录片",
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "战争片",
+        "剧情片",
+        "恐怖片",
+        "喜剧片",
+        "大陆剧",
+        "港澳剧",
+        "台湾剧",
+        "欧美剧",
+        "动漫电影",
+        "韩剧",
+        "日剧",
+        "泰剧",
+        "体育"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_U酷"
+      ]
+    },
+    {
+      "id": "lzzy",
+      "name": "量子影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "mirrors": [
+        "https://cj.lzcaiji.com/api.php/provide/vod"
+      ],
+      "parse": "https://lziplayer.com/?url=",
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_量子"
+      ]
+    },
+    {
+      "id": "dytt",
+      "name": "电影天堂",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+      "parse": "https://vip.dyttzyplay.com/?url=",
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "短剧"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_天空",
+        "csp_天堂"
+      ]
+    },
+    {
+      "id": "ffzy",
+      "name": "非凡影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.ffzyapi.com/api.php/provide/vod",
+      "mirrors": [
+        "https://cj.ffzyapi.com/api.php/provide/vod",
+        "https://ffzy.tv/api.php/provide/vod",
+        "https://yonghu.ffzyapi8.com/api.php/provide/vod",
+        "http://ffzy5.tv/api.php/provide/vod"
+      ],
+      "parse": "https://svip.ffzyplay.com/?url=",
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ],
+      "legacyKeys": [
+        "csp_非凡"
+      ]
+    },
+    {
+      "id": "yzzy",
+      "name": "优质资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.yzzy-api.com/inc/apijson.php",
+      "mirrors": [
+        "https://api.1080zyku.com/inc/apijson.php"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "xgzy",
+      "name": "西瓜资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "cttv",
+      "name": "刺桐影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://pg.cttv.vip/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站"
+      ]
+    },
+    {
+      "id": "lovedan",
+      "name": "艾旦影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://lovedan.net/api.php/provide/vod",
+      "mirrors": [
+        "https://ddmf.net/api.php/provide/vod"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站",
+        "flagged"
+      ]
+    },
+    {
+      "id": "miaobo",
+      "name": "秒播资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.zeqaht.com/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站",
+        "flagged"
+      ]
+    },
+    {
+      "id": "taopian",
+      "name": "淘片资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "采集站",
+        "flagged"
+      ]
+    },
+    {
+      "id": "jiaheyy",
+      "name": "龙马影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "http://jhysj.jiaheyy.top/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "官采"
+      ]
+    },
+    {
+      "id": "tw10010888",
+      "name": "TW资源站",
+      "kind": "cms",
+      "format": "json",
+      "api": "http://cj.10010888.xyz/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "官采"
+      ]
+    },
+    {
+      "id": "jusj",
+      "name": "奇妙官采",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://cj.jusj.top/api.php/provide/vod",
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "官采"
+      ]
+    },
+    {
+      "id": "yaya",
+      "name": "丫丫影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://cj.yayazy.net/api.php/provide/vod",
+      "mirrors": [
+        "https://yayazy2.com/api.php/provide/vod"
+      ],
+      "parse": "https://jx.yayazy.cc/m3u8/?url=",
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ],
+      "legacyKeys": [
+        "csp_丫丫"
+      ]
+    },
+    {
+      "id": "suoni",
+      "name": "索尼影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "parse": "https://dxfbk.com/?url=",
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "动画片",
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "港剧",
+        "台剧",
+        "泰剧",
+        "海外剧",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫"
+      ],
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ],
+      "legacyKeys": [
+        "csp_索尼"
+      ]
+    },
+    {
+      "id": "shandian",
+      "name": "闪电资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
+      "mirrors": [
+        "https://sdzyapi.com/api.php/provide/vod"
+      ],
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ]
+    },
+    {
+      "id": "niuniu",
+      "name": "牛牛资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.niuniuzy.me/api.php/provide/vod",
+      "mirrors": [
+        "https://niuniuzy3.com/api.php/provide/vod"
+      ],
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ]
+    },
+    {
+      "id": "wsyzy",
+      "name": "无水印资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.wsyzy.net/api.php/provide/vod",
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ]
+    },
+    {
+      "id": "kuaiche",
+      "name": "快车资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ]
+    },
+    {
+      "id": "tyyszy",
+      "name": "天涯影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://tyyszy.com/api.php/provide/vod",
+      "mirrors": [
+        "https://tyyszyapi.com/api.php/provide/vod",
+        "https://ty.tyyszy5.com/api.php/provide/vod"
+      ],
+      "parse": "https://tyyszywjx.com/?url=",
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ],
+      "legacyKeys": [
+        "csp_天涯"
+      ]
+    },
+    {
+      "id": "okzyw",
+      "name": "OK资源",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://api.okzyw.net/api.php/provide/vod",
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ]
+    },
+    {
+      "id": "maotai",
+      "name": "茅台影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "mirrors": [
+        "https://caiji.maotai999.vip/api.php/provide/vod",
+        "https://mtzy.me/api.php/provide/vod"
+      ],
+      "parse": "https://maotai888.vip:966/?url=",
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ],
+      "legacyKeys": [
+        "csp_茅台"
+      ]
+    },
+    {
+      "id": "dbzy",
+      "name": "豆瓣影视",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
+      "mirrors": [
+        "https://dbzy.tv/api.php/provide/vod"
+      ],
+      "parse": "https://dbzy99.com:699/?url=",
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ],
+      "legacyKeys": [
+        "csp_豆瓣"
+      ]
+    },
+    {
+      "id": "yingchao",
+      "name": "影巢",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://yc.movie1080.online/api.php/provide/vod",
+      "searchable": false,
+      "browseOnly": true,
+      "tags": [
+        "采集站",
+        "仅浏览"
+      ],
+      "note": "带关键词的请求会被站点的人机验证拦截，仅用于分类浏览"
+    },
+    {
+      "id": "w4567yy",
+      "name": "4567影视",
+      "kind": "web",
+      "baseUrl": "https://www.4567yy.com",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search/-------------.html?wd={wd}",
+          "list": "ul.stui-vodlist__media > li, ul.stui-vodlist > li, #searchList > li",
+          "title": "a.stui-vodlist__thumb@title||h3 a@text",
+          "link": "a.stui-vodlist__thumb@href",
+          "image": "a.stui-vodlist__thumb@data-original||a.stui-vodlist__thumb@data-src",
+          "remark": ".pic-text@text"
+        },
+        "detail": {
+          "image": ".stui-content__thumb img@data-original||img.lazyload@data-original",
+          "description": ".detail-content@text||.desc@text||.stui-content__detail .data@text"
+        },
+        "play": {
+          "listBox": ".stui-pannel-box.playlist:has(ul.stui-content__playlist)",
+          "sourceName": ".stui-pannel__head h3@text",
+          "link": "ul.stui-content__playlist a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wsszzyy",
+      "name": "西瓜影院",
+      "kind": "web",
+      "baseUrl": "https://sszzyy.com",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/index.php/vod/search.html?wd={wd}",
+          "list": "ul.stui-vodlist__media > li, ul.stui-vodlist > li, #searchList > li",
+          "title": "a.stui-vodlist__thumb@title||h3 a@text",
+          "link": "a.stui-vodlist__thumb@href",
+          "image": "a.stui-vodlist__thumb@data-original||a.stui-vodlist__thumb@data-src",
+          "remark": ".pic-text@text"
+        },
+        "detail": {
+          "image": ".stui-content__thumb img@data-original||img.lazyload@data-original",
+          "description": ".detail-content@text||.desc@text||.stui-content__detail .data@text"
+        },
+        "play": {
+          "sourceTab": "a[href^=#playlist]",
+          "listBox": "div.tab-pane[id^=playlist]",
+          "link": "ul.stui-content__playlist a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wfeikuai",
+      "name": "飞快TV",
+      "kind": "web",
+      "baseUrl": "https://feikuai.in",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/-------------.html?wd={wd}",
+          "list": ".module-card-item",
+          "title": ".module-card-item-title@text||a.module-card-item-poster@title",
+          "link": ".module-card-item-title a@href||a.module-card-item-poster@href",
+          "image": "img@data-original||img@data-src||img@src",
+          "remark": ".module-item-note@text"
+        },
+        "detail": {
+          "image": ".module-info-poster img@data-original||.module-item-pic img@data-original",
+          "description": ".module-info-introduction-content@text"
+        },
+        "play": {
+          "sourceTab": ".module-tab-items-box .module-tab-item span, .module-tab-items .module-tab-item span",
+          "listBox": ".module-play-list, .module-player-list",
+          "link": "a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wyxxq39",
+      "name": "影视星球",
+      "kind": "web",
+      "baseUrl": "https://www.yxxq39.cc",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search/{wd}----------{pg}---.html",
+          "list": ".module-card-item",
+          "title": ".module-card-item-title@text||a.module-card-item-poster@title",
+          "link": ".module-card-item-title a@href||a.module-card-item-poster@href",
+          "image": "img@data-original||img@data-src||img@src",
+          "remark": ".module-item-note@text"
+        },
+        "detail": {
+          "image": ".module-info-poster img@data-original||.module-item-pic img@data-original",
+          "description": ".module-info-introduction-content@text"
+        },
+        "play": {
+          "sourceTab": ".module-tab-items-box .module-tab-item span, .module-tab-items .module-tab-item span",
+          "listBox": ".module-play-list, .module-player-list",
+          "link": "a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "w5ggtv",
+      "name": "5G影视",
+      "kind": "web",
+      "baseUrl": "https://www.5ggtv.com",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/{wd}----------{pg}---.html",
+          "list": ".module-card-item",
+          "title": ".module-card-item-title@text||a.module-card-item-poster@title",
+          "link": ".module-card-item-title a@href||a.module-card-item-poster@href",
+          "image": "img@data-original||img@data-src||img@src",
+          "remark": ".module-item-note@text"
+        },
+        "detail": {
+          "image": ".module-info-poster img@data-original||.module-item-pic img@data-original",
+          "description": ".module-info-introduction-content@text"
+        },
+        "play": {
+          "sourceTab": ".module-tab-items-box .module-tab-item span, .module-tab-items .module-tab-item span",
+          "listBox": ".module-play-list, .module-player-list",
+          "link": "a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wxiaoheimi",
+      "name": "小黑米",
+      "kind": "web",
+      "baseUrl": "https://xiaoheimi.cc",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/index.php/vod/search/page/{pg}/wd/{wd}.html",
+          "list": "#searchList > li, ul.myui-vodlist__media > li",
+          "title": "a.myui-vodlist__thumb@title||h4 a@text",
+          "link": "a.myui-vodlist__thumb@href",
+          "image": "a.myui-vodlist__thumb@data-original",
+          "remark": ".pic-text@text"
+        },
+        "detail": {
+          "image": ".myui-content__thumb img@data-original",
+          "description": ".myui-content__detail .data .text-muted@text||.content@text"
+        },
+        "play": {
+          "sourceTab": "a[href^=#playlist]",
+          "listBox": "[id^=playlist]:has(a)",
+          "link": "a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wchumenys",
+      "name": "出门影视",
+      "kind": "web",
+      "baseUrl": "https://www.chumenys.com",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/index.php/vod/search/page/{pg}/wd/{wd}.html",
+          "list": "#searchList > li, ul.myui-vodlist__media > li",
+          "title": "a.myui-vodlist__thumb@title||h4 a@text",
+          "link": "a.myui-vodlist__thumb@href",
+          "image": "a.myui-vodlist__thumb@data-original",
+          "remark": ".pic-text@text"
+        },
+        "detail": {
+          "image": ".myui-content__thumb img@data-original",
+          "description": ".myui-content__detail .data .text-muted@text||.content@text"
+        },
+        "play": {
+          "sourceTab": "a[href^=#playlist]",
+          "listBox": "[id^=playlist]:has(a)",
+          "link": "a"
+        }
+      },
+      "tags": [
+        "网页站",
+        "flagged"
+      ]
+    },
+    {
+      "id": "wikanbd",
+      "name": "爱看影视",
+      "kind": "web",
+      "baseUrl": "https://www.ikanbd.com",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search/{wd}----------{pg}---.html",
+          "list": ".hl-one-list .hl-list-item, .hl-list-wrap .hl-list-item",
+          "title": "a.hl-item-thumb@title",
+          "link": "a.hl-item-thumb@href",
+          "image": "a.hl-item-thumb@data-original",
+          "remark": ".remarks@text||.hl-pic-text@text"
+        },
+        "detail": {
+          "image": ".hl-dc-pic a@data-original||.hl-item-thumb@data-original",
+          "description": ".hl-content-text@text||.hl-dc-content .blurb@text"
+        },
+        "play": {
+          "sourceTab": ".hl-plays-from a",
+          "listBox": ".hl-plays-list",
+          "link": "a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wskr",
+      "name": "SKR动漫",
+      "kind": "web",
+      "baseUrl": "https://skr.skr1.cc:666",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/{wd}----------{pg}---/",
+          "list": ".searchlist_item, ul.vodlist > li",
+          "title": ".vodlist_title a@title||.vodlist_title a@text||a.vodlist_thumb@title",
+          "link": "a.vodlist_thumb@href||.vodlist_title a@href",
+          "image": "a.vodlist_thumb@data-original",
+          "remark": ".pic_text@text"
+        },
+        "detail": {
+          "image": ".content_thumb a@data-original",
+          "description": ".content_desc@text"
+        },
+        "play": {
+          "sourceTab": ".play_source_tab a",
+          "listBox": ".play_list_box",
+          "link": "ul.content_playlist a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "whdmoli",
+      "name": "HDmoli",
+      "kind": "web",
+      "baseUrl": "https://www.hdmoli.me",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search/----------{pg}---.html",
+          "params": {
+            "wd": "{wd}"
+          },
+          "list": "#searchList > li, ul.myui-vodlist > li",
+          "title": "a.myui-vodlist__thumb@title||h4 a@text",
+          "link": "a.myui-vodlist__thumb@href",
+          "image": "a.myui-vodlist__thumb@data-original",
+          "remark": ".pic-text@text"
+        },
+        "category": {
+          "path": "/show/{cid}--------{pg}---.html",
+          "map": {
+            "电影": "1",
+            "电视剧": "2",
+            "动漫": "4",
+            "纪录片": "3",
+            "综艺": "5"
+          }
+        },
+        "detail": {
+          "title": "h1.title@own||h1@text",
+          "image": ".myui-content__thumb img@data-original",
+          "description": "p.col-pd:contains(剧情简介) > span:not([class])@text||p.col-pd:contains(剧情简介)@text",
+          "meta": ".myui-content__detail .data@text"
+        },
+        "play": {
+          "sourceTab": ".nav-tabs a[href^=#playlist]:not(:contains(网盘)):not(:contains(云盘))",
+          "listBox": "xpath://div[starts-with(@id,'playlist')][not(concat('#',@id) = //a[contains(.,'网盘') or contains(.,'云盘')]/@href)]",
+          "link": "ul.myui-content__list a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "note": "海外剧与精选影片为主"
+    },
+    {
+      "id": "wqiyou",
+      "name": "奇优影视",
+      "kind": "web",
+      "baseUrl": "https://www.qiyou07.com",
+      "mirrors": [
+        "https://www.qiyoudy88.com",
+        "https://www.qiyoudy99.com",
+        "https://www.taoju3.com",
+        "http://1e6e.com"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search.php",
+          "params": {
+            "searchword": "{wd}"
+          },
+          "list": "ul.stui-vodlist__media > li, ul.stui-vodlist > li",
+          "title": "a.stui-vodlist__thumb@title||h3 a@text",
+          "link": "a.stui-vodlist__thumb@href",
+          "image": "a.stui-vodlist__thumb@data-original",
+          "remark": ".pic-text@text"
+        },
+        "category": {
+          "path": "/list/{cid}_{pg}.html",
+          "map": {
+            "电影": "1",
+            "电视剧": "2",
+            "动漫": "3",
+            "综艺": "4"
+          }
+        },
+        "detail": {
+          "image": ".stui-content__thumb img@data-original",
+          "description": "p.desc@own||#desc .col-pd@text",
+          "meta": ".stui-content__detail p.data@text"
+        },
+        "play": {
+          "sourceTab": ".nav-tabs a[href^=#down]",
+          "listBox": "div.tab-pane[id^=down]",
+          "link": "ul.stui-content__playlist a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wdbku",
+      "name": "独播库",
+      "kind": "web",
+      "baseUrl": "https://www.dbku.tv",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/-------------.html?wd={wd}",
+          "list": "#searchList > li, ul.myui-vodlist__media > li, ul.myui-vodlist > li",
+          "title": "a.myui-vodlist__thumb@title||h4 a@text",
+          "link": "a.myui-vodlist__thumb@href",
+          "image": "a.myui-vodlist__thumb@data-original",
+          "remark": ".pic-text@text"
+        },
+        "category": {
+          "path": "/vodshow/{cid}--------{pg}---.html",
+          "map": {
+            "电影": "1",
+            "连续剧": "2",
+            "综艺": "3",
+            "动漫": "4"
+          }
+        },
+        "detail": {
+          "image": ".myui-content__thumb img@data-original",
+          "description": "#desc span.data@text||#desc .content@text",
+          "meta": ".myui-content__detail p.data@text"
+        },
+        "play": {
+          "sourceTab": ".nav-tabs a[href^=#playlist]",
+          "listBox": "div.tab-pane[id^=playlist]:has(a)",
+          "link": "ul.myui-content__list a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wfantuan",
+      "name": "饭团影视",
+      "kind": "web",
+      "baseUrl": "https://fantuansjz.com",
+      "mirrors": [
+        "https://www.fantuansjz.com"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/sjvodsearch/{wd}----------{pg}---.html",
+          "list": "dl.fed-list-deta",
+          "title": "h3 a@text||a.fed-list-title@text",
+          "link": "a.fed-deta-play[href*=/sjvoddetail/]@href||a.fed-list-title@href||h3 a@href",
+          "image": "a.fed-list-pics@data-original",
+          "remark": ".fed-list-remarks@text"
+        },
+        "category": {
+          "path": "/sjvodshow/{cid}--------{pg}---.html",
+          "map": {
+            "电影": "1",
+            "电视剧": "2",
+            "综艺": "3",
+            "动漫": "4"
+          }
+        },
+        "homeList": "ul.fed-list-info > li.fed-list-item",
+        "detail": {
+          "title": "dd.fed-deta-content h3@text||h1@text",
+          "image": "dt.fed-deta-images a.fed-list-pics@data-original",
+          "description": ".fed-conv-cont@text||meta[name=description]@content",
+          "meta": "dd.fed-deta-content ul@text"
+        },
+        "play": {
+          "sourceTab": ".fed-conv-play a.fed-tabs-btn",
+          "listBox": ".fed-conv-play ul.fed-tabs-btm"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wbahao",
+      "name": "八号影视",
+      "kind": "web",
+      "baseUrl": "https://www.bhtv001.com",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/so{wd}/page/{pg}.html",
+          "list": ".show-vod-list .myui-vodbox-content",
+          "title": ".card-info .title@text||.title@text",
+          "remark": ".tag@text||.info-bottom .right@text"
+        },
+        "category": {
+          "path": "/vodshow/{cid}--------{pg}---.html",
+          "map": {
+            "电影": "movie",
+            "电视剧": "tvseries",
+            "动漫": "anime"
+          }
+        },
+        "detail": {
+          "title": "h1.title@text||h1@text",
+          "image": ".img-box img@data-original",
+          "description": ".intro@text"
+        },
+        "play": {
+          "sourceTab": "ul.nav-btn li.player_name a",
+          "listBox": ".tab-content > div[id^=playlist]",
+          "link": ".listitem a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wwencai",
+      "name": "文才蓝光",
+      "kind": "web_api",
+      "baseUrl": "https://www.cfkj86.com",
+      "mirrors": [
+        "https://www.sizhengxt.com",
+        "https://www.tjrongze.com",
+        "https://www.jiabaide.cn"
+      ],
+      "searchable": false,
+      "browseOnly": false,
+      "tags": [
+        "网页站(API)"
+      ],
+      "note": "金牌影院系站点，海报、分类与播放地址均取自站点接口"
+    },
+    {
+      "id": "wnivod",
+      "name": "泥视频",
+      "kind": "web",
+      "baseUrl": "https://www.nivod.cc",
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search.html?keyword={wd}&page={pg}",
+          "list": "li.qy-mod-li",
+          "title": "a.link-txt@title||.title-wrap .main a@text",
+          "link": "a.link-txt@href||a.qy-mod-link@href",
+          "image": ".qy-mod-cover@bg||img@data-original||img@src",
+          "remark": ".qy-mod-label@text"
+        },
+        "category": {
+          "path": "/filter.html?channel={cid}&page={pg}",
+          "map": {
+            "电影": "movie",
+            "电视剧": "tv",
+            "综艺": "show",
+            "动漫": "anime",
+            "纪录片": "doc"
+          }
+        },
+        "detail": {
+          "title": ".right-title@text||title@text",
+          "image": "img.left-img@src",
+          "description": "#show-desc@text",
+          "meta": "#postYear@text"
+        },
+        "play": {
+          "listBox": "#list-jj"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wlibvio",
+      "name": "Libvio",
+      "kind": "web",
+      "baseUrl": "https://libvio.host",
+      "mirrors": [
+        "https://www.libvio.to",
+        "https://libviobd.com"
+      ],
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search/{wd}----------{pg}---.html",
+          "list": "ul.stui-vodlist > li",
+          "title": "a.stui-vodlist__thumb@title||h4 a@text",
+          "link": "a.stui-vodlist__thumb@href||h4 a@href",
+          "image": "a.stui-vodlist__thumb@data-original",
+          "remark": ".pic-text@text"
+        },
+        "category": {
+          "path": "/show/{cid}--------{pg}---.html",
+          "map": {
+            "电影": "1",
+            "剧集": "2",
+            "番剧": "4",
+            "日韩剧": "15",
+            "欧美剧": "16"
+          }
+        },
+        "detail": {
+          "title": "h1.title@text||h1@text",
+          "image": "#js-poster-img@data-original||.vod-poster img@data-original",
+          "description": ".detail-content@text",
+          "meta": ".vod-meta@text"
+        },
+        "play": {
+          "listBox": ".playlist-panel:not(.netdisk-panel):has(ul.stui-content__playlist)",
+          "sourceName": ".panel-head h3@text",
+          "link": "ul.stui-content__playlist a"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "note": "日韩、欧美剧集与番剧为主，只有网盘资源的影片不收录"
+    },
+    {
+      "id": "wzxzj",
+      "name": "在线之家",
+      "kind": "web",
+      "baseUrl": "https://www.zxzj.run",
+      "mirrors": [
+        "https://www.zxzjhd.com",
+        "https://www.zxzjys.com"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/{wd}----------{pg}---.html",
+          "list": "ul.stui-vodlist > li",
+          "title": "a.stui-vodlist__thumb@title||h4 a@text",
+          "link": "a.stui-vodlist__thumb@href",
+          "image": "a.stui-vodlist__thumb@data-original",
+          "remark": ".pic-text@text"
+        },
+        "category": {
+          "path": "/vodshow/{cid}--------{pg}---.html",
+          "map": {
+            "电影": "1",
+            "美剧": "2",
+            "韩剧": "3",
+            "日剧": "4",
+            "泰剧": "5",
+            "动漫": "6"
+          }
+        },
+        "detail": {
+          "title": ".stui-content__detail h1@text||h1@text",
+          "image": ".stui-content__thumb img@data-original",
+          "description": ".detail-content@text||.detail-sketch@text",
+          "meta": ".stui-content__detail p.data@text"
+        },
+        "play": {
+          "sourceTab": "xpath://div[contains(@class,'stui-vodlist__head')][following-sibling::*[1][contains(@class,'stui-content__playlist')]][not(contains(.,'网盘') or contains(.,'云盘') or contains(.,'下载'))]//h3",
+          "listBox": "xpath://ul[contains(@class,'stui-content__playlist')][preceding-sibling::*[1][contains(@class,'stui-vodlist__head')][not(contains(.,'网盘') or contains(.,'云盘') or contains(.,'下载'))]]"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "note": "海外剧集为主"
+    },
+    {
+      "id": "wnovipnoad",
+      "name": "NO视频",
+      "kind": "web",
+      "baseUrl": "https://www.novipnoad.uk",
+      "mirrors": [
+        "https://www.novipnoad.net",
+        "https://www.novipnoad.us",
+        "https://www.novipnoad.cc",
+        "https://www.novipnoad.xyz"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search/{wd}/page/{pg}/",
+          "list": ".search-listing-content .video-item, .video-listing-content .video-item",
+          "title": ".item-head h3 a@title||.item-thumbnail a@title||.item-head h3 a@text",
+          "link": ".item-thumbnail a@href||.item-head h3 a@href",
+          "image": ".item-thumbnail img@data-original"
+        },
+        "category": {
+          "path": "/{cid}/page/{pg}/",
+          "map": {
+            "港剧": "tv/hongkong",
+            "台剧": "tv/taiwan",
+            "欧美剧": "tv/western",
+            "日剧": "tv/japan",
+            "韩剧": "tv/korea",
+            "泰剧": "tv/thailand",
+            "土耳其剧": "tv/turkey",
+            "电影": "movie",
+            "动画": "anime",
+            "综艺": "shows",
+            "音乐": "music",
+            "短片": "short",
+            "其他": "other"
+          }
+        },
+        "detail": {
+          "title": "h1@text||meta[property=og:title]@content",
+          "image": "meta[property=og:image]@content",
+          "description": "meta[name=description]@content"
+        },
+        "play": {
+          "listBox": ".item-content",
+          "link": "a.multilink-btn@data-vid"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "note": "海外剧集为主，每次更新单独成篇；首次访问需完成站点的人机验证"
+    },
+    {
+      "id": "w4kvm",
+      "name": "4KVM",
+      "kind": "web",
+      "baseUrl": "https://www.4kvm.org",
+      "mirrors": [
+        "https://www.4kvm.net",
+        "https://www.4kvm.tv",
+        "https://www.4kvm.cc",
+        "https://www.4kvm.me",
+        "https://www.4kvm.top",
+        "https://www.4kvms.org",
+        "https://www.4kvms.com"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search?q={wd}",
+          "list": "a[data-vod]:has(img):has(h3)",
+          "title": "h3@text||img@alt",
+          "link": "@href",
+          "image": "img@data-src",
+          "remark": "div.top-2@text"
+        },
+        "category": {
+          "path": "/filter?classify={cid}&page={pg}",
+          "map": {
+            "电影": "1",
+            "电视剧": "2",
+            "动漫": "3"
+          }
+        },
+        "detail": {
+          "image": "[data-poster]@data-poster||meta[property=og:image]@content",
+          "description": "meta[name=description]@content"
+        },
+        "play": {
+          "sourceTab": "div[x-data^=episodeManager] > div:first-child > button",
+          "listBox": "div[x-data^=episodeManager] div.grid > div:has(> a[data-episode])",
+          "link": "a[data-episode]"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    },
+    {
+      "id": "wdida",
+      "name": "嘀嗒影视",
+      "kind": "web",
+      "baseUrl": "https://www.didahd.xyz",
+      "mirrors": [
+        "https://www.didahd.pro"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search/{wd}----------{pg}---.html",
+          "list": "#searchList > li",
+          "title": "a.myui-vodlist__thumb@title||h4 a@text",
+          "link": "a.myui-vodlist__thumb@href",
+          "image": "a.myui-vodlist__thumb@data-original",
+          "remark": ".pic-text@text||.pic-tag@text"
+        },
+        "category": {
+          "path": "/type/{cid}-{pg}.html",
+          "map": {
+            "电影": "1",
+            "电视剧": "2",
+            "纪录片": "3",
+            "动漫": "4",
+            "综艺": "5"
+          }
+        },
+        "homeList": "ul.myui-vodlist > li",
+        "detail": {
+          "title": "h1.title@text||h1@text",
+          "image": ".myui-content__thumb img@data-original",
+          "description": "p.col-pd:has(span:contains(剧情简介)) > span:not(.text-muted):not(.text-highlight):not(.vod-remarks)@text||p.col-pd:has(span:contains(剧情简介))@text",
+          "meta": ".myui-content__detail .data@text"
+        },
+        "play": {
+          "sourceTab": "a[href^=#playlist]:not(:contains(网盘))",
+          "listBox": "div.tab-pane[id^=playlist]:not(:has(> p:contains(网盘)))"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "note": "高分精选片单"
+    },
+    {
+      "id": "wwangwang",
+      "name": "旺旺影视",
+      "kind": "web",
+      "baseUrl": "https://vip.wwgz.cn:5200",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/index.php?m=vod-search-pg-{pg}-wd-{wd}.html",
+          "list": "#data_list > li",
+          "title": ".sTit@text",
+          "link": ".pic a@href||a@href",
+          "image": "img@data-src||img@data-echo||img@src",
+          "remark": ".sStyle@text||.sBottom span@own"
+        },
+        "category": {
+          "path": "/vod-list-id-{cid}-pg-{pg}-order--by-time-class-0-year-0-letter--area--lang-.html",
+          "map": {
+            "电影": "1",
+            "连续剧": "2",
+            "综艺": "3",
+            "动漫": "4",
+            "短剧": "26"
+          }
+        },
+        "homeList": "ul.resize_list > li",
+        "detail": {
+          "title": "h1.title@text||h1@text",
+          "image": ".page-hd img@src",
+          "description": ".detail-con p@text",
+          "meta": ".desc_item:contains(年代)@text"
+        },
+        "play": {
+          "sourceTab": "#leftTabBox .hd li a",
+          "listBox": "#leftTabBox .bd .numList"
+        }
+      },
+      "tags": [
+        "网页站"
+      ]
+    }
+  ],
+  "parsers": [
+    {
+      "id": "jx789",
+      "name": "789解析",
+      "url": "https://jiexi.789jiexi.net:4433/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "xianyu",
+      "name": "咸鱼云解析",
+      "url": "https://jx.xymp4.cc/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "jx8090",
+      "name": "8090解析",
+      "url": "https://www.8090g.cn/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "bl",
+      "name": "BL解析",
+      "url": "https://vip.bljiex.cc/?v=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "xiami",
+      "name": "虾米解析",
+      "url": "https://jx.xmflv.com/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "m3u8tv",
+      "name": "m3u8Tv",
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "ckplayer",
+      "name": "ckplayer无广告解析",
+      "url": "https://www.ckplayer.vip/jiexi/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [
+        "超快解析"
+      ],
+      "note": null
+    },
+    {
+      "id": "bingdou",
+      "name": "冰豆",
+      "url": "https://bd.jx.cn/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "yemu",
+      "name": "夜幕解析",
+      "url": "https://www.yemu.xyz/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "jyplayer",
+      "name": "JYPlayer解析",
+      "url": "https://jx.playerjy.com/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "pangu",
+      "name": "盘古解析",
+      "url": "https://www.pangujiexi.com/jiexi/?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "lingdian",
+      "name": "凌点解析",
+      "url": "https://jx.nnsvip.cn/?url=",
+      "backupUrls": [],
+      "tokenApi": "https://jx.nnsvip.cn/api.php",
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "qilin",
+      "name": "麒麟解析",
+      "url": "https://hls.xiguadh.com/?url=",
+      "backupUrls": [
+        "https://svip.qlplayer.cyou/?url=",
+        "https://jx.haokantv.cyou/player/?url="
+      ],
+      "tokenApi": "/api/resolve.php?token={token}",
+      "platforms": [],
+      "aliases": [],
+      "note": null
+    },
+    {
+      "id": "yparse",
+      "name": "yparse 解析",
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "backupUrls": [],
+      "tokenApi": null,
+      "platforms": [
+        "iqiyi",
+        "youku"
+      ],
+      "aliases": [],
+      "note": null
+    }
+  ],
+  "platforms": [
+    {
+      "id": "iqiyi",
+      "name": "爱奇艺",
+      "description": "海量正版高清视频",
+      "url": "https://www.iqiyi.com/",
+      "icon": "https://www.iqiyi.com/logo.png"
+    },
+    {
+      "id": "youku",
+      "name": "优酷视频",
+      "description": "以好内容全力以赴",
+      "url": "https://youku.com/",
+      "icon": "https://img.alicdn.com/imgextra/i2/O1CN01BeAcgL1ywY0G5nSn8_!!6000000006643-2-tps-195-195.png"
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯视频",
+      "description": "领先的视频媒体平台",
+      "url": "https://v.qq.com/",
+      "icon": "https://vfiles.gtimg.cn/wuji_dashboard/xy/starter/4ea79867.png"
+    },
+    {
+      "id": "mgtv",
+      "name": "芒果视频",
+      "description": "畅看芒果TV综艺",
+      "url": "https://www.mgtv.com/",
+      "icon": "https://static.hitv.com/pc/icons/icon_512x512.1b7ca7.png"
+    },
+    {
+      "id": "sohu",
+      "name": "搜狐视频",
+      "description": "领先的综合视频网站",
+      "url": "https://tv.sohu.com/",
+      "icon": "https://css.tv.itc.cn/channel/v1/images/logo.png"
+    },
+    {
+      "id": "letv",
+      "name": "乐视视频",
+      "description": "乐视旗下专业的影视剧视频网站",
+      "url": "https://www.le.com/",
+      "icon": "https://i3.letvimg.com/lc05_img/201803/01/16/53/appLetvNew.png"
+    }
+  ],
+  "live": [
+    {
+      "id": "qiuchuyu_ipv4",
+      "name": "初秋语•ipv4",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://github.com/qist/tvbox/blob/master/list.txt"
+    },
+    {
+      "id": "live_2",
+      "name": "易看电视",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://github.com/qist/tvbox/blob/master/zb.txt"
+    }
+  ],
+  "flagged": [
+    "lovedan",
+    "miaobo",
+    "taopian",
+    "wchumenys"
+  ]
+}
