@@ -1,8 +1,8 @@
 {
   "version": 2,
   "name": "StarBox TV Sources",
-  "updatedAt": "2026-10-22",
-  "source": "starboxtvs.json + sites_config.json",
+  "updatedAt": "2026-10-23",
+  "source": "starboxtvs.json + sites_config.json + starboxtvsnew.json",
   "sites": [
     {
       "id": "maoyan",
@@ -67,9 +67,9 @@
       "name": "速播影视",
       "kind": "cms",
       "format": "json",
-      "api": "https://subocaiji.com/api.php/provide/vod",
+      "api": "https://subocj.com/api.php/provide/vod",
       "mirrors": [
-        "https://subocj.com/api.php/provide/vod"
+        "https://subocaiji.com/api.php/provide/vod"
       ],
       "parse": "https://subojiexi.com/play/?url=",
       "searchable": true,
@@ -98,8 +98,9 @@
       "name": "ikun影视",
       "kind": "cms",
       "format": "json",
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "api": "https://ikunzy.com/api.php/provide/vod",
       "mirrors": [
+        "https://ikunzyapi.com/api.php/provide/vod",
         "https://www.ikunzy.com/api.php/provide/vod"
       ],
       "parse": "https://www.ikundmjx.com/?url=",
@@ -169,7 +170,8 @@
       ],
       "legacyKeys": [
         "csp_极速"
-      ]
+      ],
+      "mirrors": []
     },
     {
       "id": "ruyi",
@@ -306,9 +308,9 @@
       "name": "樱花影视",
       "kind": "cms",
       "format": "json",
-      "api": "https://yhzy.cc/api.php/provide/vod",
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
       "mirrors": [
-        "https://m3u8.apiyhzy.com/api.php/provide/vod/"
+        "https://yhzy.cc/api.php/provide/vod"
       ],
       "parse": "https://jx.yhzybf.com/player/jx.php?url=",
       "searchable": true,
@@ -346,7 +348,8 @@
       ],
       "legacyKeys": [
         "csp_新浪"
-      ]
+      ],
+      "mirrors": []
     },
     {
       "id": "hgyx",
@@ -377,9 +380,9 @@
       "name": "360影视",
       "kind": "cms",
       "format": "json",
-      "api": "https://360zyzz.com/api.php/provide/vod",
+      "api": "https://360zy.com/api.php/provide/vod",
       "mirrors": [
-        "https://360zy.com/api.php/provide/vod",
+        "https://360zyzz.com/api.php/provide/vod",
         "https://360zy.tv/api.php/provide/vod"
       ],
       "parse": "https://www.360bffxz.com/player/?url=",
@@ -435,7 +438,8 @@
       ],
       "legacyKeys": [
         "csp_光速"
-      ]
+      ],
+      "mirrors": []
     },
     {
       "id": "bdzy",
@@ -468,7 +472,8 @@
       ],
       "legacyKeys": [
         "csp_百度"
-      ]
+      ],
+      "mirrors": []
     },
     {
       "id": "jinying",
@@ -562,7 +567,8 @@
       ],
       "legacyKeys": [
         "csp_虎牙"
-      ]
+      ],
+      "mirrors": []
     },
     {
       "id": "yxxq",
@@ -581,7 +587,7 @@
       "name": "爱奇艺",
       "kind": "cms",
       "format": "json",
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
       "parse": "https://www.iqiyizyjx.com/?url=",
       "searchable": true,
       "browseOnly": false,
@@ -590,6 +596,9 @@
       ],
       "legacyKeys": [
         "csp_iqy"
+      ],
+      "mirrors": [
+        "https://iqiyizyapi.com/api.php/provide/vod"
       ]
     },
     {
@@ -707,7 +716,7 @@
       "name": "电影天堂",
       "kind": "cms",
       "format": "json",
-      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "parse": "https://vip.dyttzyplay.com/?url=",
       "categories": [
         "动作片",
@@ -732,6 +741,9 @@
       "legacyKeys": [
         "csp_天空",
         "csp_天堂"
+      ],
+      "mirrors": [
+        "https://caiji.dyttzyapi.com/api.php/provide/vod"
       ]
     },
     {
@@ -910,8 +922,8 @@
         "https://yayazy2.com/api.php/provide/vod"
       ],
       "parse": "https://jx.yayazy.cc/m3u8/?url=",
-      "searchable": false,
-      "browseOnly": true,
+      "searchable": true,
+      "browseOnly": false,
       "tags": [
         "采集站",
         "仅浏览"
@@ -955,15 +967,16 @@
         "港台动漫",
         "海外动漫"
       ],
-      "searchable": false,
-      "browseOnly": true,
+      "searchable": true,
+      "browseOnly": false,
       "tags": [
         "采集站",
         "仅浏览"
       ],
       "legacyKeys": [
         "csp_索尼"
-      ]
+      ],
+      "mirrors": []
     },
     {
       "id": "shandian",
@@ -1028,14 +1041,14 @@
       "name": "天涯影视",
       "kind": "cms",
       "format": "json",
-      "api": "https://tyyszy.com/api.php/provide/vod",
+      "api": "https://tyyszyapi.com/api.php/provide/vod",
       "mirrors": [
-        "https://tyyszyapi.com/api.php/provide/vod",
+        "https://tyyszy.com/api.php/provide/vod",
         "https://ty.tyyszy5.com/api.php/provide/vod"
       ],
       "parse": "https://tyyszywjx.com/?url=",
-      "searchable": false,
-      "browseOnly": true,
+      "searchable": true,
+      "browseOnly": false,
       "tags": [
         "采集站",
         "仅浏览"
@@ -1068,8 +1081,8 @@
         "https://mtzy.me/api.php/provide/vod"
       ],
       "parse": "https://maotai888.vip:966/?url=",
-      "searchable": false,
-      "browseOnly": true,
+      "searchable": true,
+      "browseOnly": false,
       "tags": [
         "采集站",
         "仅浏览"
@@ -1083,13 +1096,14 @@
       "name": "豆瓣影视",
       "kind": "cms",
       "format": "json",
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn",
       "mirrors": [
+        "https://caiji.dbzy5.com/api.php/provide/vod",
         "https://dbzy.tv/api.php/provide/vod"
       ],
       "parse": "https://dbzy99.com:699/?url=",
-      "searchable": false,
-      "browseOnly": true,
+      "searchable": true,
+      "browseOnly": false,
       "tags": [
         "采集站",
         "仅浏览"
@@ -1620,17 +1634,18 @@
       "id": "wnivod",
       "name": "泥视频",
       "kind": "web",
-      "baseUrl": "https://www.nivod.cc",
+      "baseUrl": "https://www.nivod.vip",
       "searchable": true,
       "browseOnly": false,
       "rules": {
         "search": {
-          "path": "/search.html?keyword={wd}&page={pg}",
-          "list": "li.qy-mod-li",
-          "title": "a.link-txt@title||.title-wrap .main a@text",
-          "link": "a.link-txt@href||a.qy-mod-link@href",
-          "image": ".qy-mod-cover@bg||img@data-original||img@src",
-          "remark": ".qy-mod-label@text"
+          "path": "/s/{wd}----------{pg}---/",
+          "list": ".module-card-item",
+          "title": ".module-card-item-title a@text",
+          "link": ".module-card-item-title a@href",
+          "image": ".module-item-pic img@data-original||.module-item-pic img@src",
+          "remark": ".module-item-note@text",
+          "kind": ".module-card-item-class@text"
         },
         "category": {
           "path": "/filter.html?channel={cid}&page={pg}",
@@ -1643,17 +1658,34 @@
           }
         },
         "detail": {
-          "title": ".right-title@text||title@text",
-          "image": "img.left-img@src",
-          "description": "#show-desc@text",
-          "meta": "#postYear@text"
+          "title": ".module-info-heading h1@text",
+          "image": ".module-info-poster .module-item-pic img@data-original||.module-info-poster .module-item-pic img@src",
+          "description": ".module-info-introduction-content p@text",
+          "year": ".module-info-tag-link a:eq(0)@text",
+          "area": "@js:result.match(/<a[^>]*?title=\"([^\"]+)\"[^>]*?>[\\s\\S]*?<a[^>]*?title=\"([^\"]+)\"/)[2]",
+          "actor": ".module-info-item:contains(主演) .module-info-item-content@text",
+          "director": ".module-info-item:contains(导演) .module-info-item-content@text",
+          "remarks": ".module-info-item:contains(集数) .module-info-item-content@text"
         },
         "play": {
-          "listBox": "#list-jj"
+          "sourceTab": ".module-tab-item@data-dropdown-value",
+          "listBox": ".module-play-list",
+          "link": ".module-play-list-link",
+          "episodeName": ".module-play-list-link span@text",
+          "episodeUrl": ".module-play-list-link@href"
         }
       },
       "tags": [
         "网页站"
+      ],
+      "mirrors": [
+        "https://www.nivod.cc"
+      ],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "legacyKeys": [
+        "csp_nivod"
       ]
     },
     {
@@ -1944,6 +1976,519 @@
       "tags": [
         "网页站"
       ]
+    },
+    {
+      "id": "w55kan7",
+      "name": "555电影",
+      "kind": "web",
+      "baseUrl": "https://www.55kan7.top",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/{wd}----------{pg}---.html",
+          "list": ".module-card-item",
+          "title": ".module-card-item-title a@text",
+          "link": ".module-card-item-title a@href",
+          "image": ".module-item-pic img@data-original||.module-item-pic img@src",
+          "remark": ".module-item-note@text",
+          "kind": ".module-card-item-class@text"
+        },
+        "detail": {
+          "title": ".module-info-heading h1@text",
+          "image": ".module-info-poster .module-item-pic img@data-original||.module-info-poster .module-item-pic img@src",
+          "description": ".module-info-introduction-content p@text",
+          "year": ".module-info-tag-link a:eq(0)@text",
+          "area": ".module-info-tag-link a:eq(1)@text",
+          "actor": ".module-info-item:contains(主演) .module-info-item-content@text",
+          "director": ".module-info-item:contains(导演) .module-info-item-content@text",
+          "remarks": ".module-info-item:contains(集数) .module-info-item-content@text"
+        },
+        "play": {
+          "sourceTab": ".module-tab-item@data-dropdown-value",
+          "listBox": ".module-play-list",
+          "link": ".module-play-list-link",
+          "episodeName": ".module-play-list-link span@text",
+          "episodeUrl": ".module-play-list-link@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_55kan7"
+      ]
+    },
+    {
+      "id": "wdm155",
+      "name": "大米星球",
+      "kind": "web",
+      "baseUrl": "https://www.dm155.top",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/{wd}----------{pg}---.html",
+          "list": ".module-card-item",
+          "title": ".module-card-item-title a@text",
+          "link": ".module-card-item-title a@href",
+          "image": ".module-item-pic img@data-original||.module-item-pic img@src",
+          "remark": ".module-item-note@text",
+          "kind": ".module-card-item-class@text"
+        },
+        "detail": {
+          "title": ".module-info-heading h1@text",
+          "image": ".module-info-poster .module-item-pic img@data-original||.module-info-poster .module-item-pic img@src",
+          "description": ".module-info-introduction-content p@text",
+          "year": ".module-info-tag-link a:eq(0)@text",
+          "area": "@js:result.match(/<a[^>]*?title=\"([^\"]+)\"[^>]*?>[\\s\\S]*?<a[^>]*?title=\"([^\"]+)\"/)[2]",
+          "actor": ".module-info-item:contains(主演) .module-info-item-content@text",
+          "director": ".module-info-item:contains(导演) .module-info-item-content@text",
+          "remarks": ".module-info-item:contains(集数) .module-info-item-content@text"
+        },
+        "play": {
+          "sourceTab": ".module-tab-item@data-dropdown-value",
+          "listBox": ".module-play-list",
+          "link": ".module-play-list-link",
+          "episodeName": ".module-play-list-link span@text",
+          "episodeUrl": ".module-play-list-link@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_dm155"
+      ]
+    },
+    {
+      "id": "wjibi",
+      "name": "叽哔动漫",
+      "kind": "web",
+      "baseUrl": "https://www.jibi.cc",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/index.php/vod/search/page/{pg}/wd/{wd}.html",
+          "list": ".module-card-item",
+          "title": ".module-card-item-title a@text",
+          "link": ".module-card-item-title a@href",
+          "image": ".module-item-pic img@data-original||.module-item-pic img@src",
+          "remark": ".module-item-note@text",
+          "kind": ".module-card-item-class@text"
+        },
+        "detail": {
+          "title": ".module-info-heading h1@text",
+          "image": ".module-info-poster .module-item-pic img@data-original||.module-info-poster .module-item-pic img@src",
+          "description": ".module-info-introduction-content p@text",
+          "year": ".module-info-tag-link a:eq(0)@text",
+          "area": "@js:result.match(/<a[^>]*?title=\"([^\"]+)\"[^>]*?>[\\s\\S]*?<a[^>]*?title=\"([^\"]+)\"/)[2]",
+          "actor": ".module-info-item:contains(主演) .module-info-item-content@text",
+          "director": ".module-info-item:contains(导演) .module-info-item-content@text",
+          "remarks": ".module-info-item:contains(备注) .module-info-item-content@text"
+        },
+        "play": {
+          "sourceTab": ".module-tab-items-box .module-tab-item@data-dropdown-value",
+          "listBox": ".module-play-list",
+          "link": ".module-play-list-link",
+          "episodeName": ".module-play-list-link span@text",
+          "episodeUrl": ".module-play-list-link@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_jibi"
+      ]
+    },
+    {
+      "id": "weacg",
+      "name": "E-ACG",
+      "kind": "web",
+      "baseUrl": "https://www.eacg1.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/{wd}----------{pg}---.html",
+          "list": "dl.fed-deta-info",
+          "title": "h1 a@text",
+          "link": "h1 a@href",
+          "image": "dt.fed-deta-images a.fed-list-pics@data-original",
+          "remark": "a.fed-list-pics .fed-list-remarks@text"
+        },
+        "detail": {
+          "title": "h1 a@text",
+          "image": "dt.fed-deta-images a.fed-list-pics@data-original",
+          "description": ".fed-part-esan@text",
+          "year": "li:contains(年份) a@text",
+          "area": "li:contains(地区) a@text",
+          "actor": "li:contains(声优) a@text",
+          "director": "li:contains(导演)@text"
+        },
+        "play": {
+          "sourceTab": "li.fed-play-btns a@text",
+          "listBox": "div.fed-play-item.fed-drop-item",
+          "link": "a.fed-btns-info.fed-rims-info.fed-part-eone",
+          "episodeName": "@text",
+          "episodeUrl": "@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_eacg"
+      ]
+    },
+    {
+      "id": "wsenfun",
+      "name": "森之屋动漫",
+      "kind": "web",
+      "baseUrl": "https://senfun.in",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search.html?wd={wd}&page={pg}",
+          "list": ".module-card-item",
+          "title": ".module-card-item-title a@text",
+          "link": ".module-card-item-title a@href",
+          "image": ".module-item-pic img@data-original||.module-item-pic img@src",
+          "remark": ".module-item-note@text",
+          "kind": ".module-card-item-class@text"
+        },
+        "detail": {
+          "title": ".module-info-heading h1@text",
+          "image": ".module-info-poster .module-item-pic img@data-original||.module-info-poster .module-item-pic img@src",
+          "description": ".module-info-introduction-content p@text",
+          "year": ".module-info-tag-link a:eq(0)@text",
+          "area": "@js:result.match(/<a[^>]*?title=\"([^\"]+)\"[^>]*?>[\\s\\S]*?<a[^>]*?title=\"([^\"]+)\"/)[2]",
+          "actor": ".module-info-item:contains(主演) .module-info-item-content@text",
+          "director": ".module-info-item:contains(导演) .module-info-item-content@text",
+          "remarks": ".module-info-item:contains(备注) .module-info-item-content@text"
+        },
+        "play": {
+          "sourceTab": ".module-tab-item@data-dropdown-value",
+          "listBox": ".module-play-list",
+          "link": ".module-play-list-link",
+          "episodeName": ".module-play-list-link span@text",
+          "episodeUrl": ".module-play-list-link@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_senfun"
+      ]
+    },
+    {
+      "id": "wyinghuadm",
+      "name": "樱花动漫",
+      "kind": "web",
+      "baseUrl": "https://www.yinghua2.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/index.php/vod/search/page/{pg}/wd/{wd}.html",
+          "list": "ul.stui-vodlist__media li",
+          "title": "h3.title a@text",
+          "link": "h3.title a@href",
+          "image": "a.stui-vodlist__thumb@data-original||a.stui-vodlist__thumb img@src",
+          "remark": "a.stui-vodlist__thumb .pic-text@text"
+        },
+        "detail": {
+          "title": "h1.title@ownText",
+          "image": "a.stui-vodlist__thumb img@data-original||a.stui-vodlist__thumb img@src",
+          "description": "p.desc@text",
+          "year": "p.data:contains(年份) a@text",
+          "area": "p.data:contains(地区) a@text",
+          "actor": "p.data:contains(主演) a@text",
+          "director": "p.data:contains(导演) a@text",
+          "remarks": "span.pic-text@text"
+        },
+        "play": {
+          "sourceTab": "h3.title@ownText",
+          "listBox": "div.stui-pannel-box.b.playlist",
+          "link": "ul.stui-content__playlist li a",
+          "episodeName": "@text",
+          "episodeUrl": "@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_yinghua"
+      ]
+    },
+    {
+      "id": "whaixing",
+      "name": "海星动漫",
+      "kind": "web",
+      "baseUrl": "https://www.haixingdmx.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/s_all?kw={wd}&pagesize=24&pageindex={{page0}}",
+          "list": "div.fire.l ul li",
+          "title": "h2 a@text",
+          "link": "h2 a@href",
+          "image": "img@src",
+          "remark": "span font@text"
+        },
+        "detail": {
+          "title": "h1@text",
+          "image": ".thumb img@src",
+          "remarks": "p:contains(更新至)@text"
+        },
+        "play": {
+          "sourceTab": "a@text",
+          "listBox": ".main0 .movurl",
+          "link": "ul li a",
+          "episodeName": "@text",
+          "episodeUrl": "@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_haixing"
+      ]
+    },
+    {
+      "id": "wdilidili",
+      "name": "嘀哩嘀哩",
+      "kind": "web",
+      "baseUrl": "https://dilidili.io",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search?kwtype=0&q={wd}",
+          "list": ".anime_list dl",
+          "title": "dd h3 a@text",
+          "link": "dd h3 a@href",
+          "image": "dt img@src"
+        },
+        "detail": {
+          "title": "h1@text",
+          "image": "dt img@src"
+        },
+        "play": {
+          "listBox": ".time_pic.list",
+          "link": "li a",
+          "episodeName": "em span@text",
+          "episodeUrl": "@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_dilidili"
+      ]
+    },
+    {
+      "id": "wnetflixgc",
+      "name": "奈飞工厂",
+      "kind": "web",
+      "baseUrl": "https://www.netflixgc.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/{wd}----------{pg}---.html",
+          "list": "div.search-list",
+          "title": "h3.slide-info-title@text",
+          "link": "div.detail-info a@href",
+          "image": "div.detail-pic img@data-src||div.detail-pic img@src",
+          "remark": "span.slide-info-remarks.cor5@text"
+        },
+        "detail": {
+          "title": "h3.slide-info-title@text",
+          "image": "div.detail-pic img@data-src||div.detail-pic img@src",
+          "description": "#height_limit@text",
+          "actor": "div.partition:contains(演员)@text",
+          "director": "div.partition:contains(导演)@text",
+          "remarks": "span.slide-info-remarks.cor5@text"
+        },
+        "play": {
+          "sourceTab": "div.anthology-tab a@ownText",
+          "listBox": "div.anthology-list-box",
+          "link": "ul.anthology-list-play li a",
+          "episodeName": "a@text",
+          "episodeUrl": "a@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_netflixgc"
+      ]
+    },
+    {
+      "id": "w4kdyw",
+      "name": "4K影视站",
+      "kind": "web",
+      "baseUrl": "https://www.4kdyw.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/{wd}",
+          "list": "ul.stui-vodlist li",
+          "title": "h4.title a@text",
+          "link": "h4.title a@href",
+          "image": "a.stui-vodlist__thumb@data-original",
+          "remark": "span.pic-text b@text"
+        },
+        "detail": {
+          "title": "div.stui-content__detail h1.title@text",
+          "image": "div.stui-content__thumb img@data-original",
+          "description": "div.stui-content__detail h3 + p@text",
+          "year": "p.data:contains(年代) span:eq(0)@text",
+          "director": "p.data:contains(导演) span@text",
+          "remarks": "p.data:contains(状态) span@text"
+        },
+        "play": {
+          "sourceTab": "div.dpplay ul.nav.nav-tabs li a@text",
+          "listBox": "div.tab-content div.tab-pane",
+          "link": "ul.stui-content__playlist li a",
+          "episodeName": "@text",
+          "episodeUrl": "@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_4kdyw"
+      ]
+    },
+    {
+      "id": "wzhuijutu",
+      "name": "追剧兔",
+      "kind": "web",
+      "baseUrl": "https://zhuijutu.cc",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/vodsearch/{wd}----------{pg}---.html",
+          "list": "li.hl-list-item",
+          "title": "div.hl-item-title a@text",
+          "link": "div.hl-item-title a@href",
+          "image": "a.hl-item-thumb@data-original",
+          "remark": "span.remarks@text",
+          "kind": "p.hl-item-sub.hl-lc-1@text"
+        },
+        "detail": {
+          "title": "h2.hl-dc-title@text",
+          "image": "div.hl-dc-pic span.hl-item-thumb@data-original",
+          "description": "div.hl-rb-content span.hl-content-text@text",
+          "actor": "li:contains(主演) a@text",
+          "remarks": "li:contains(状态) span.hl-text-conch@text"
+        },
+        "play": {
+          "sourceTab": "div.hl-play-source a.hl-tabs-btn@ownText",
+          "listBox": "div.hl-play-source div.hl-tabs-box",
+          "link": "ul.hl-plays-list li a",
+          "episodeName": "@text",
+          "episodeUrl": "@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_zhuijutu"
+      ]
+    },
+    {
+      "id": "wyxxq35",
+      "name": "映像星球",
+      "kind": "web",
+      "baseUrl": "https://www.yxxq35.cc",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "searchable": true,
+      "browseOnly": false,
+      "rules": {
+        "search": {
+          "path": "/search/-%2D-%2D-%2D-%2D-%2D-%2D-.html?wd={wd}",
+          "list": "div.module-card-item:not(.mac-ad-card)",
+          "title": "div.module-card-item-title a@text",
+          "link": "a.module-card-item-poster@href",
+          "image": "div.module-item-pic img@data-original",
+          "remark": "div.module-item-note@text",
+          "kind": "div.module-card-item-class@text"
+        },
+        "detail": {
+          "title": "div.module-info-heading h1@text",
+          "image": "div.module-info-poster img@data-original",
+          "description": "div.module-info-introduction-content@text",
+          "year": "div.module-info-tag-link a:eq(0)@text",
+          "area": "@js:result.match(/<a[^>]*?title=\"([^\"]+)\"[^>]*?>[\\s\\S]*?<a[^>]*?title=\"([^\"]+)\"/)[2]",
+          "actor": "div.module-info-item:contains(主演) .module-info-item-content@text",
+          "director": "div.module-info-item:contains(导演) .module-info-item-content@text",
+          "remarks": "div.module-info-item:contains(连载) .module-info-item-content@text"
+        },
+        "play": {
+          "sourceTab": "div.module-tab-item[data-dropdown-value]@data-dropdown-value",
+          "listBox": "div.module-play-list",
+          "link": "a.module-play-list-link",
+          "episodeName": "a.module-play-list-link span@text",
+          "episodeUrl": "a.module-play-list-link@href"
+        }
+      },
+      "tags": [
+        "网页站"
+      ],
+      "legacyKeys": [
+        "csp_yxxq35"
+      ]
     }
   ],
   "parsers": [
@@ -2072,10 +2617,10 @@
     {
       "id": "qilin",
       "name": "麒麟解析",
-      "url": "https://hls.xiguadh.com/?url=",
+      "url": "https://jx.haokantv.cyou/player/?url=",
       "backupUrls": [
-        "https://svip.qlplayer.cyou/?url=",
-        "https://jx.haokantv.cyou/player/?url="
+        "https://hls.xiguadh.com/?url=",
+        "https://svip.qlplayer.cyou/?url="
       ],
       "tokenApi": "/api/resolve.php?token={token}",
       "platforms": [],
