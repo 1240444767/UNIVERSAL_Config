@@ -2,7 +2,7 @@
   "version": 2,
   "name": "StarBox TV Sources",
   "updatedAt": "2026-10-25",
-  "source": "starboxtvs.json + sites_config.json + starboxtvsnew.json + anime_sites_config.json（成人番剧 CMS）",
+  "source": "starboxtvs.json + sites_config.json + starboxtvsnew.json + anime_sites_config.json（成人番剧 CMS） + xxa5 X资源站接口",
   "sites": [
     {
       "id": "maoyan",
@@ -2635,15 +2635,18 @@
       "name": "杏吧资源",
       "kind": "cms",
       "format": "json",
-      "api": "https://xingba111.com/api.php/provide/vod",
-      "mirrors": [],
+      "api": "https://json.xingba222.com/api.php/provide/vod",
+      "mirrors": [
+        "https://json.xgbbk8.com/api.php/provide/vod",
+        "https://xingba111.com/api.php/provide/vod"
+      ],
       "searchable": true,
       "browseOnly": false,
       "tags": [
         "成人番剧",
         "采集站"
       ],
-      "note": "成人番剧；分类 ID：59"
+      "note": "来源：xxa5.com X资源站；2026-10-25 接口更新"
     },
     {
       "id": "anime_adult_senlin",
@@ -2651,14 +2654,16 @@
       "kind": "cms",
       "format": "json",
       "api": "https://slapibf.com/api.php/provide/vod",
-      "mirrors": [],
+      "mirrors": [
+        "https://beiyong.slapibf.com/api.php/provide/vod"
+      ],
       "searchable": true,
       "browseOnly": false,
       "tags": [
         "成人番剧",
         "采集站"
       ],
-      "note": "成人番剧；分类 ID：33"
+      "note": "来源：xxa5.com X资源站；含备用接口"
     },
     {
       "id": "anime_adult_jkun",
@@ -2674,6 +2679,204 @@
         "采集站"
       ],
       "note": "成人番剧；分类 ID：30"
+    },
+    {
+      "id": "x_lebozy",
+      "name": "乐播资源网",
+      "kind": "cms",
+      "format": "xml",
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+      "mirrors": [
+        "https://lbapiby.com/api.php/provide/vod/at/xml/"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；XML 接口"
+    },
+    {
+      "id": "x_dadizy",
+      "name": "大地资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://dadizy.com/api.php/provide/vod",
+      "mirrors": [],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
+    },
+    {
+      "id": "x_yutuzy",
+      "name": "玉兔资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://yutuzy9.com/api.php/provide/vod",
+      "mirrors": [
+        "https://yutuzy.com/api.php/provide/vod"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
+    },
+    {
+      "id": "x_jingpinx",
+      "name": "精品X资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://jingpinx.com/api.php/provide/vod",
+      "mirrors": [],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
+    },
+    {
+      "id": "x_lajiaozy",
+      "name": "辣椒资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "http://lajiaozy.com/api.php/provide/vod",
+      "mirrors": [],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；仅 HTTP 接口"
+    },
+    {
+      "id": "x_laosebizy",
+      "name": "老色逼资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://laosebizy8.com/api.php/provide/vod",
+      "mirrors": [
+        "https://laosebizy.com/api.php/provide/vod"
+      ],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
+    },
+    {
+      "id": "x_didizy",
+      "name": "滴滴资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://didizy.com/api.php/provide/vod",
+      "mirrors": [],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
+    },
+    {
+      "id": "x_shayuzy",
+      "name": "鲨鱼资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://shayuzy5.com/api.php/provide/vod",
+      "mirrors": [],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
+    },
+    {
+      "id": "x_heiliaozy",
+      "name": "黑料资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://heiliaozyapi.com/api.php/provide/vod",
+      "mirrors": [],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
+    },
+    {
+      "id": "x_thzy",
+      "name": "桃花资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://thzy1.me/api.php/provide/vod",
+      "mirrors": [],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
+    },
+    {
+      "id": "x_doudouzy",
+      "name": "豆豆资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://doudouzy.com/api.php/provide/vod",
+      "mirrors": [],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
+    },
+    {
+      "id": "x_fqzy",
+      "name": "番茄资源网",
+      "kind": "cms",
+      "format": "json",
+      "api": "https://fqzy.me/api.php/provide/vod",
+      "mirrors": [],
+      "searchable": true,
+      "browseOnly": false,
+      "tags": [
+        "X资源",
+        "成人番剧",
+        "采集站"
+      ],
+      "note": "来源：xxa5.com X资源站；接口已验证"
     }
   ],
   "parsers": [
