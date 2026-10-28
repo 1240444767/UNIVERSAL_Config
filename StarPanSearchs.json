@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "updateTime": "2026-10-28",
+  "description": "网盘搜索全部数据源 & 网盘类型映射总表",
+
+  "panTypes": {
+    "aliyundrive": {
+      "name": "阿里云盘",
+      "panKind": "ALIYUN",
+      "typeId": "1",
+      "prefix": "https://www.aliyundrive.com/s/",
+      "aliases": ["阿里云盘", "阿里网盘", "阿里云", "阿里"]
+    },
+    "quark": {
+      "name": "夸克网盘",
+      "panKind": "QUARK",
+      "typeId": "2",
+      "prefix": "https://pan.quark.cn/s/",
+      "aliases": ["夸克网盘", "夸克云盘", "夸克"]
+    },
+    "xunlei": {
+      "name": "迅雷网盘",
+      "panKind": "XUNLEI",
+      "typeId": "3",
+      "prefix": "https://pan.xunlei.com/s/",
+      "aliases": ["迅雷网盘", "迅雷云盘", "迅雷"]
+    },
+    "baidu": {
+      "name": "百度网盘",
+      "panKind": "BAIDU",
+      "typeId": "4",
+      "prefix": "https://pan.baidu.com/s/",
+      "aliases": ["百度网盘", "百度云盘", "百度云", "百度"]
+    },
+    "uc": {
+      "name": "UC网盘",
+      "panKind": "UC",
+      "typeId": "5",
+      "prefix": "https://drive.uc.cn/s/",
+      "aliases": ["UC网盘", "UC云盘", "UC"]
+    },
+    "tianyi": {
+      "name": "天翼云盘",
+      "panKind": "TIANYI",
+      "typeId": null,
+      "prefix": null,
+      "aliases": ["天翼云盘", "天翼网盘", "天翼云", "天翼"]
+    },
+    "mobile": {
+      "name": "移动云盘",
+      "panKind": "MOBILE",
+      "typeId": null,
+      "prefix": null,
+      "aliases": ["移动云盘", "移动云", "移动"]
+    },
+    "115": {
+      "name": "115网盘",
+      "panKind": "PAN115",
+      "typeId": null,
+      "prefix": null,
+      "aliases": ["115网盘", "115云盘", "115"]
+    },
+    "123": {
+      "name": "123网盘",
+      "panKind": "PAN123",
+      "typeId": null,
+      "prefix": null,
+      "aliases": ["123网盘", "123云盘", "123"]
+    },
+    "guangya": {
+      "name": "光鸭云盘",
+      "panKind": "GUANGYA",
+      "typeId": null,
+      "prefix": null,
+      "aliases": ["光鸭云盘", "光鸭"]
+    },
+    "pikpak": {
+      "name": "PikPak",
+      "panKind": null,
+      "typeId": null,
+      "prefix": null,
+      "aliases": ["PikPak网盘", "PikPak"]
+    }
+  },
+
+  "sources": {
+    "AGGREGATE": [
+      {"id": "feikuai", "name": "飞快 TV", "baseUrls": ["https://feikuai.in"], "search": {"enabled": false}},
+      {"id": "xiaokupan", "name": "小库盘", "baseUrls": ["https://xiaokupan.com"], "search": {"enabled": false}},
+      {"id": "naspt", "name": "NASPT", "baseUrls": ["https://api.naspt.vip"], "search": {"enabled": false}},
+      {"id": "melost", "name": "影盘社", "baseUrls": ["https://www.melost.cn"], "search": {"enabled": true, "path": "/v1/search/disk", "needAuth": true, "pageSize": 30}},
+      {"id": "misoso", "name": "米搜", "baseUrls": ["https://www.misoso.cc"], "search": {"enabled": true, "path": "/v1/search/disk", "needAuth": true, "pageSize": 15}},
+      {"id": "hunhepan", "name": "混合盘", "baseUrls": ["https://hunhepan.com"], "search": {"enabled": true, "path": "/open/search/disk", "needAuth": false, "pageSize": 30}},
+      {"id": "meitizy", "name": "451024 资源库", "baseUrls": ["https://apis.451024.xyz"], "search": {"enabled": true}},
+      {"id": "yunso", "name": "小云搜索", "baseUrls": ["https://www.yunso.net"], "search": {"enabled": true}},
+      {"id": "yingso", "name": "影搜", "baseUrls": ["https://ysapi.yingso.fun"], "search": {"enabled": false}},
+      {"id": "xiaoyu", "name": "小宇搜索", "baseUrls": ["https://xykmovie.com"], "search": {"enabled": true}},
+      {"id": "haitunsou", "name": "海豚搜", "baseUrls": ["https://www.haitunsou.com"], "search": {"enabled": false}},
+      {"id": "quark4k", "name": "夸克 4K", "baseUrls": ["https://quark4k.com"], "search": {"enabled": true}},
+      {"id": "lingji", "name": "灵吉影视", "baseUrls": ["https://web5.mukaku.com"], "search": {"enabled": false}},
+      {"id": "aipan", "name": "爱盼", "baseUrls": ["https://www.aipan.me"], "search": {"enabled": false}},
+      {"id": "pioz", "name": "KK 小站", "baseUrls": ["https://www.pioz.cn"], "search": {"enabled": false}},
+      {"id": "panso", "name": "盘搜 VIP", "baseUrls": ["https://www.panso.vip"], "search": {"enabled": true}},
+      {"id": "pansearch", "name": "PanSearch", "baseUrls": ["https://www.pansearch.me"], "search": {"enabled": false}}
+    ],
+
+    "SITE": [
+      {"id": "huban", "name": "虎斑", "baseUrls": ["http://43.248.128.118:16969", "http://xhban.xyz:20720"]},
+      {"id": "zhizhen", "name": "至臻影视", "baseUrls": ["http://www.mihdr.top"]},
+      {"id": "shandian", "name": "闪电优汐", "baseUrls": ["http://shandian.blog", "http://sd.sduc.site"]},
+      {"id": "muou", "name": "木偶", "baseUrls": ["https://www.muoua.top", "https://666.666291.xyz"]},
+      {"id": "huajuan", "name": "花卷资源", "baseUrls": ["https://www.hjzhencai.top"]},
+      {"id": "leijing", "name": "雷鲸小站", "baseUrls": ["https://leijing.xyz"]},
+      {"id": "jutoushe", "name": "剧透社", "baseUrls": ["https://1.star2.cn"]},
+      {"id": "ddys", "name": "低端影视", "baseUrls": ["https://ddys.io"]},
+      {"id": "dyyj", "name": "电影云集", "baseUrls": ["https://dyyjpro.com"]},
+      {"id": "acgndog", "name": "次元狗", "baseUrls": ["https://www.acgndog.com"]},
+      {"id": "jsnote", "name": "JSNote Club", "baseUrls": ["https://www.jsnoteclub.com"]},
+      {"id": "xzys", "name": "校长影视", "baseUrls": ["https://xzys.fun"]},
+      {"id": "quarksoo", "name": "光影素材库", "baseUrls": ["https://quarksoo.cc"]},
+      {"id": "quarkres", "name": "热门夸克资源", "baseUrls": ["https://squark.cc.cd"]}
+    ],
+
+    "CHANNEL": {
+      "id": "telegram",
+      "name": "Telegram 频道",
+      "baseUrls": ["https://t.me"],
+      "channels": [
+        {"channelId": "yunpanx", "panKinds": ["QUARK","BAIDU","ALIYUN","UC","XUNLEI"]},
+        {"channelId": "XiangxiuNBB", "panKinds": ["QUARK","BAIDU","GUANGYA","XUNLEI"]},
+        {"channelId": "QuarkFree", "panKinds": ["QUARK","BAIDU","UC","XUNLEI"]},
+        {"channelId": "ucquark", "panKinds": ["QUARK","BAIDU","XUNLEI","UC"]},
+        {"channelId": "Aliyun_4K_Movies", "panKinds": ["ALIYUN","QUARK","BAIDU"]},
+        {"channelId": "vip115hot", "panKinds": ["ALIYUN","QUARK","BAIDU","PAN115"]},
+        {"channelId": "WFYSFX03", "panKinds": ["QUARK","BAIDU","GUANGYA"]},
+        {"channelId": "wpan8", "panKinds": ["QUARK","BAIDU","XUNLEI","MOBILE"]},
+        {"channelId": "leoziyuan", "panKinds": ["QUARK","BAIDU","XUNLEI"]},
+        {"channelId": "tgbokee", "panKinds": ["QUARK","BAIDU","XUNLEI","UC"]},
+        {"channelId": "yydf_hzl", "panKinds": ["QUARK","BAIDU","ALIYUN","PAN123"]},
+        {"channelId": "peccxinpd", "panKinds": ["XUNLEI","QUARK","BAIDU"]},
+        {"channelId": "seedhub_pro", "panKinds": ["QUARK","BAIDU","XUNLEI"]},
+        {"channelId": "tgsearchers7", "panKinds": ["QUARK","BAIDU","XUNLEI","UC"]},
+        {"channelId": "kuyupan", "panKinds": ["QUARK","BAIDU","UC","ALIYUN"]},
+        {"channelId": "rbzhwpzy", "panKinds": ["QUARK","BAIDU","XUNLEI","ALIYUN"]},
+        {"channelId": "Panzi88com", "panKinds": ["QUARK","BAIDU","MOBILE"]},
+        {"channelId": "yy80986098", "panKinds": ["XUNLEI","QUARK","BAIDU"]},
+        {"channelId": "TG654TG", "panKinds": ["QUARK","BAIDU","XUNLEI"]},
+        {"channelId": "Quark_Movies", "panKinds": ["QUARK"]},
+        {"channelId": "yoyokuakeduanju", "panKinds": ["QUARK","BAIDU","UC"]},
+        {"channelId": "kduanju", "panKinds": ["QUARK","BAIDU"]},
+        {"channelId": "youxigs", "panKinds": ["QUARK"]},
+        {"channelId": "baicaoZY", "panKinds": ["QUARK"]},
+        {"channelId": "guoman4K", "panKinds": ["QUARK"]},
+        {"channelId": "jzmm_123pan", "panKinds": ["QUARK"]},
+        {"channelId": "kuakedongman", "panKinds": ["QUARK"]},
+        {"channelId": "gotopan", "panKinds": ["QUARK","XUNLEI"]},
+        {"channelId": "baidyunpan", "panKinds": ["BAIDU"]},
+        {"channelId": "bdwpzhpd", "panKinds": ["BAIDU"]},
+        {"channelId": "Baidu_netdisk", "panKinds": ["BAIDU"]},
+        {"channelId": "shareAliyun", "panKinds": ["ALIYUN"]},
+        {"channelId": "zyfb123", "panKinds": ["PAN123"]},
+        {"channelId": "yp123pan", "panKinds": ["PAN123"]},
+        {"channelId": "xx123pan", "panKinds": ["PAN123"]},
+        {"channelId": "QukanMovie", "panKinds": ["PAN115"]},
+        {"channelId": "yunpanuc", "panKinds": ["UC"]},
+        {"channelId": "yunpanxunlei", "panKinds": ["XUNLEI"]},
+        {"channelId": "yunpan139", "panKinds": ["MOBILE"]},
+        {"channelId": "tyypzhpd", "panKinds": ["TIANYI"]}
+      ]
+    }
+  }
+}
