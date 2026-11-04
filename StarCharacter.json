@@ -1,0 +1,87 @@
+[
+        {
+            "name": "舔狗日记",
+            "api": "https://api.oick.cn/api/dog?apikey=690fddd6dff2eb3d2b017bee2be4853f",
+            "key": ""
+        },
+        {
+            "name": "随机笑话",
+            "api": "https://60s.viki.moe/v2/dad-joke",
+            "key": "data.content"
+        },
+        {
+            "name": "随机一言",
+            "api": "https://v1.jinrishici.com/all.txt",
+            "key": ""
+        },
+        {
+            "name": "疯狂星期四文案",
+            "api": "https://api.shadiao.pro/kfc",
+            "key": "data.text"
+        },
+        {
+            "name": "毒鸡汤",
+            "api": "https://api.shadiao.pro/du",
+            "key": "data.text"
+        },
+        {
+            "name": "朋友圈文案",
+            "api": "https://api.shadiao.pro/pyq",
+            "key": "data.text"
+        },
+        {
+            "name": "彩虹屁",
+            "api": "https://api.shadiao.pro/chp",
+            "key": "data.text"
+        },
+        {
+            "name": "爱情公寓语录",
+            "api": "https://v2.xxapi.cn/api/aiqinggongyu",
+            "key": "data"
+        },
+        {
+            "name": "脑筋急转弯",
+            "api": "https://www.hhlqilongzhu.cn/api/yl_njjzw.php",
+            "key": ""
+        },
+        {
+            "name": "今日诗词",
+            "api": "https://v2.jinrishici.com/one.json",
+            "key": "data.content|data.origin.author|data.origin.title",
+            "format": "{0}\n\n——{1}《{2}》"
+        },
+        {
+            "name": "随机人设",
+            "api": "https://api.kuleu.com/api/suiji_renshe",
+            "key": ""
+        },
+        {
+            "name": "随机弱智吧问答",
+            "api": "https://api.pearapi.ai/api/ruozhiba/",
+            "key": "data.instruction|data.output",
+            "format": "问：{0}\n\n答：{1}"
+        },
+        {
+            "name": "今天吃什么",
+            "api": "https://api.pearapi.ai/api/today/food.php",
+            "key": "food"
+        },
+        {
+            "name": "英汉语录",
+            "api": "https://api.oick.cn/api/yhyl?apikey=82cc05498627ac0a9d5314f3f4184a7b",
+            "key": "data.content|data.note",
+            "format": "{0}\n\n{1}"
+        },
+        {
+            "name": "随机谜语",
+            "api": "https://api.oick.cn/api/miyu?apikey=5de3d842eb4d78582881fdef704447dc",
+            "key": "data.type|data.topic|data.tip|data.answer",
+            "format": "【{0}】{1}\n{2}\n\n答案：{3}"
+        },{
+            "name": "恋爱话术",
+            "input": "请输入恋爱难题",
+            "api": "https://api.pearapi.ai/api/love/?question={q}",
+            "key": "answer",
+            "format": "问题：{q}\n\n答案：{0}"
+}
+    ]
