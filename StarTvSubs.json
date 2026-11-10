@@ -1,0 +1,35 @@
+{
+  "name": "StarTV 订阅",
+  "description": "TVBox 类应用的配置订阅清单：每条订阅包含名称、配置地址（url）、备用地址（backup）与版本号（version）。内容有变更时递增对应 version。",
+  "version": 1,
+  "updatedAt": "2026-11-11",
+  "subscriptions": [
+    {
+      "name": "牛小二",
+      "url": "https://9280.kstore.vip/newwex.json",
+      "version": 1
+    },
+    {
+      "name": "摸鱼",
+      "url": "https://6800.kstore.vip/fish.json",
+      "version": 1
+    },
+    {
+      "name": "电视（自用）",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+      "version": 1
+    },
+    {
+      "name": "潇洒",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json",
+      "backup": "https://qist.wyfc.qzz.io/xiaosa/api.json",
+      "version": 1
+    },
+    {
+      "name": "饭太硬",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/fty.json",
+      "backup": "https://qist.wyfc.qzz.io/fty.json",
+      "version": 1
+    }
+  ]
+}
