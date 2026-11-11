@@ -1,8 +1,8 @@
 {
   "name": "StarTV 订阅",
   "description": "TVBox 类应用的配置订阅清单：每条订阅包含名称、配置地址（url）、备用地址（backup）与版本号（version）。内容有变更时递增对应 version。",
-  "version": 1,
-  "updatedAt": "2026-11-11",
+  "version": 2,
+  "updatedAt": "2026-11-12",
   "subscriptions": [
     {
       "name": "牛小二",
@@ -29,6 +29,41 @@
       "name": "饭太硬",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/fty.json",
       "backup": "https://qist.wyfc.qzz.io/fty.json",
+      "version": 1
+    },
+    {
+      "name": "王二小放牛娃",
+      "url": "http://new.王二小放牛娃.top/",
+      "backup": "https://9280.kstore.vip/aiwex.json",
+      "version": 1
+    },
+    {
+      "name": "PG",
+      "url": "https://www.252035.xyz/p/jsm.json",
+      "backup": "http://www3.fish2018.ip-ddns.com/p/jsm.json",
+      "version": 1
+    },
+    {
+      "name": "真心",
+      "url": "https://www.252035.xyz/z/FongMi.json",
+      "backup": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
+      "version": 1
+    },
+    {
+      "name": "裤佬",
+      "url": "https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/branch/Jsnzkpg/Jsnzkpg2",
+      "version": 1
+    },
+    {
+      "name": "小米",
+      "url": "https://cnb.cool/xiaomi666888/devcontainer/-/git/raw/main/gege.json",
+      "backup": "https://gh-proxy.org/https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json",
+      "version": 1
+    },
+    {
+      "name": "肥猫",
+      "url": "http://肥猫.net/",
+      "backup": "https://jk.catvod.site/",
       "version": 1
     }
   ]
