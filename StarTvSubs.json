@@ -1,7 +1,7 @@
 {
   "name": "StarTV 订阅",
-  "description": "TVBox 类应用的配置订阅清单：每条订阅包含名称、配置地址（url）、备用地址（backup）与版本号（version）。内容有变更时递增对应 version。",
-  "version": 2,
+  "description": "TVBox 类应用的配置订阅清单：每条订阅包含名称、配置地址（url）、备用地址（backup）、版本号（version）与成人标识（adult，true 时包含成人内容，导入后受应用成人开关控制）。内容有变更时递增对应 version。",
+  "version": 3,
   "updatedAt": "2026-11-12",
   "subscriptions": [
     {
@@ -65,6 +65,256 @@
       "url": "http://肥猫.net/",
       "backup": "https://jk.catvod.site/",
       "version": 1
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/jiahua151526-maker/tvbox@main/sites.all.json",
+      "name": "jiahua151526-maker",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/jiahua151526-maker/tvbox@main/ysc_cms.json",
+      "name": "jiahua151526-maker_cms",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/WaykeYu/gotv@main/fun.json",
+      "name": "WaykeYu_fun",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/WaykeYu/gotv@main/fun1.json",
+      "name": "WaykeYu_fun1",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/WaykeYu/gotv@main/fun_js.json",
+      "name": "WaykeYu_fun_js",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/WaykeYu/gotv@main/fun_py.json",
+      "name": "WaykeYu_fun_py",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/WaykeYu/gotv@main/box_py.json",
+      "name": "WaykeYu_box_py",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/Mimosass/iptv-bridge@main/dist/tvbox.json",
+      "name": "Mimosass_tvbox",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/longer519/tvbox@main/config-lite.json",
+      "name": "longer519_lite",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/longer519/tvbox@main/config.json",
+      "name": "longer519_config",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/jamesht88/zztv-releases@main/s18.json",
+      "name": "jamesht88_s18",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/jamesht88/zztv-releases@main/s18_clean.json",
+      "name": "jamesht88_s18净化",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/InkiChang/tvbox-cms-source@main/source.json",
+      "name": "InkiChang",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/bearnozhang/tv-hub@main/public/tv-m1.json",
+      "name": "bearnozhang_tv-m1",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/bearnozhang/tv-hub@main/public/tv-m2.json",
+      "name": "bearnozhang_tv-m2",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/bearnozhang/tv-hub@main/public/tv-t1.json",
+      "name": "bearnozhang_tv-t1",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/bearnozhang/tv-hub@main/public/tv-t2.json",
+      "name": "bearnozhang_tv-t2",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/bearnozhang/tv-hub@main/public/tv-t3.json",
+      "name": "bearnozhang_tv-t3",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/bearnozhang/tv-hub@main/public/tv-t4.json",
+      "name": "bearnozhang_tv-t4",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/bearnozhang/tv-hub@main/public/tv-t5.json",
+      "name": "bearnozhang_tv-t5",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/Harrywang0117/IPTV@main/tvbox/18j",
+      "name": "Harrywang0117_18j",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/Harrywang0117/IPTV@main/tvbox/18c",
+      "name": "Harrywang0117_18c",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/Harrywang0117/IPTV@main/tvbox/18",
+      "name": "Harrywang0117_18",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/deshadow39-Tainwan/TVBox-Config@main/TVBox_Full_RemoteReady.json",
+      "name": "deshadow39-Tainwan_Full",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/deshadow39-Tainwan/TVBox-Config@main/TVBox_Global_Live_v2.json",
+      "name": "deshadow39-Tainwan_Global",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/deshadow39-Tainwan/TVBox-Config@main/TVBox_Live_Diagnostic.json",
+      "name": "deshadow39-Tainwan_Diagnostic",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/NoviceDai/PrivateTvbox@main/18plus/testok.json",
+      "name": "NoviceDai_testok",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/x315600/t3-spiders@main/girigiri_config.json",
+      "name": "x315600_girigiri",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/x315600/t3-spiders@main/girigiri_config_fast.json",
+      "name": "x315600_girigiri快",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/bluefriendCN/set@main/ma.json",
+      "name": "bluefriendCN-ma",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/nzsm/tvbox-server@main/ref_config.json",
+      "name": "nzsm-ref_config",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/nzsm/tvbox-server@main/merged_clean.txt",
+      "name": "nzsm-merged_clean",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/nzsm/tvbox-server@main/merged_config.txt",
+      "name": "nzsm-merged_config",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/nzsm/tvbox-server@main/merged_config1246.txt",
+      "name": "nzsm-merged_config1246",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/nzsm/tvbox-server@main/merged_config13.txt",
+      "name": "nzsm-merged_config13",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/nzsm/tvbox-server@main/merged_configa.txt",
+      "name": "nzsm-merged_configa",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/nzsm/tvbox-server@main/merged_configo.txt",
+      "name": "nzsm-merged_configo",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/nzsm/tvbox-server@main/nzsm.json",
+      "name": "nzsm-nzsm",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/nzsm/tvbox-server@main/za.txt",
+      "name": "nzsm-za",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/gitbochs/tvbox_url@main/configx.json",
+      "name": "gitbochs_configx",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/gitbochs/tvbox_url@main/config_100sitesx.json",
+      "name": "gitbochs_100sitesx",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/gitbochs/tvbox_url@main/config_200sitesx.json",
+      "name": "gitbochs_200sitesx",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/gitbochs/tvbox_url@main/config_50sitesx.json",
+      "name": "gitbochs_50sitesx",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/kingwangjingyi/tvbox@main/tvbox.json",
+      "name": "kingwangjingyi_tvbox",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/ericvlog/tvbox@main/tv18-standalone.json",
+      "name": "ericvlog_tv18单",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/ericvlog/tvbox@main/tv18.json",
+      "name": "ericvlog_tv18",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/Szchiji/tvbox-cms@main/tvbox_cms.json",
+      "name": "Szchiji_cms",
+      "adult": false
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/wuye776/TV@main/tvbox.json",
+      "name": "wuye776_色猫",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/wuye776/TV@main/sites3.json",
+      "name": "wuye776_色猫3",
+      "adult": true
+    },
+    {
+      "url": "https://fastly.jsdelivr.net/gh/jetchan001/TVBOX1@main/0914-only-sex.json",
+      "name": "jetchan001_0914-only-sex",
+      "adult": true
     }
   ]
 }
