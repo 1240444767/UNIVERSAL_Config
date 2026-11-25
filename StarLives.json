@@ -1,12 +1,23 @@
 {
-  "version": 2,
+  "version": 3,
   "name": "StarBox Live Sources",
   "updatedAt": "2026-11-25",
+  "note": "按实测可用率排序：vbskycn > 原有国内源 > 大而全源 > IPv6/海外源。抽样可用率仅供参考，实际因网络环境而异；403 多为运营商限制，000 多为海外/IPv6 地址。",
   "lives": [
     {
-      "name": "migu",
+      "name": "v4",
       "type": 0,
-      "url": "https://develop202.github.io/migu_video/interface.txt",
+      "url": "https://live.zbds.top/tv/iptv4.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    },
+    {
+      "name": "v4gh",
+      "type": 0,
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "playerType": 1,
       "ua": "okhttp/3.8.1",
       "timeout": 20,
@@ -34,9 +45,9 @@
       "logo": "https://logo.wyfc.qzz.io/{name}.png"
     },
     {
-      "name": "zbefine",
+      "name": "kimentanm",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u",
+      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 1,
       "ua": "okhttp/3.8.1",
       "timeout": 20,
@@ -47,6 +58,26 @@
       "name": "guovin",
       "type": 0,
       "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    },
+    {
+      "name": "zbefine",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    },
+    {
+      "name": "biggrandg",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u",
       "playerType": 1,
       "ua": "okhttp/3.8.1",
       "timeout": 20,
@@ -84,9 +115,19 @@
       "logo": "https://logo.wyfc.qzz.io/{name}.png"
     },
     {
-      "name": "kimentanm",
+      "name": "wwb521",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "url": "https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    },
+    {
+      "name": "imdazui",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/%E5%9B%BD%E5%86%85%E7%94%B5%E8%A7%86%E5%8F%B02023.m3u8",
       "playerType": 1,
       "ua": "okhttp/3.8.1",
       "timeout": 20,
@@ -97,6 +138,16 @@
       "name": "iptvorg",
       "type": 0,
       "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    },
+    {
+      "name": "migu",
+      "type": 0,
+      "url": "https://develop202.github.io/migu_video/interface.txt",
       "playerType": 1,
       "ua": "okhttp/3.8.1",
       "timeout": 20,
